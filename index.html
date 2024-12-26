@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo"><span>face</span>book</h1>
+        <h2>Create a new account</h2>
+        <form id="signup-form">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="First Name" required>
+          
+          <label for="surname">SurName</label>
+          <input type="text" id="surname" placeholder="Surname Name" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Your email" required>
+          
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter Your password" required>
+          
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" id="mobile" placeholder="Mobile Number" required>
+          
+          <div class="inline-fields">
+            <div>
+              <label for="city">City</label>
+              <input type="text" id="city" placeholder="">
+            </div>
+            <div>
+              <label for="zip">Zip Code</label>
+              <input type="text" id="zip" placeholder="">
+            </div>
+          </div>
+    
+          <label>
+            <input type="checkbox" id="check-me">
+            Check me out
+          </label>
+          <button type="submit" id="sign-in-btn">Sign In</button>
+          <!-- <button type="submit" id="sign-in-btn"> <a href="./login.html">Sign In</a></button> -->
+        </form>
+        
+       
+        <div id="result"></div>
+      </div> 
+      
+
+    <script src="./app.js"></script>
+</body>
+</html>
